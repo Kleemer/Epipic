@@ -70,7 +70,11 @@
 /* 0 */
 /***/ (function(module, exports) {
 
-
+ReactDOM.render(React.createElement(
+    'div',
+    null,
+    'hello, student'
+), document.getElementById('root'));
 
 /***/ })
 /******/ ]);
